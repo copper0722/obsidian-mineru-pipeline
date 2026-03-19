@@ -1,6 +1,6 @@
 {
   "name": "obsidian-mineru-pipeline",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert PDFs to markdown using MinerU CLI with automatic zh-TW cleanup",
   "main": "main.js",
   "scripts": {
