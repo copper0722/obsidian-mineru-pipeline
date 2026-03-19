@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-mineru-pipeline",
+  "name": "MinerU Pipeline",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Convert PDFs to markdown using MinerU CLI. Extracts text, tables, images, and formulas with automatic zh-TW cleanup.",
+  "author": "copper0722",
+  "authorUrl": "https://github.com/copper0722",
+  "isDesktopOnly": true
+}

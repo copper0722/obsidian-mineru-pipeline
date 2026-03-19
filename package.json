@@ -1,0 +1,20 @@
+{
+  "name": "obsidian-mineru-pipeline",
+  "version": "0.1.0",
+  "description": "Convert PDFs to markdown using MinerU CLI with automatic zh-TW cleanup",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": ["obsidian", "pdf", "mineru", "markdown", "ocr"],
+  "author": "copper0722",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "0.25.0",
+    "obsidian": "latest",
+    "tslib": "2.8.1",
+    "typescript": "5.7.3"
+  }
+}
