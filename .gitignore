@@ -3,3 +3,8 @@ main.js
 *.js.map
 data.json
 .DS_Store
+__pycache__/
+*.pyc
+*.bak-*
+.env
+.env.*
